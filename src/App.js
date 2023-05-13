@@ -12,7 +12,9 @@ import Leftsidebar from './/eshopper/section/left-sidebar/left-sidebar';
 import Features_items from './eshopper/section/features_items/features_items';
 import Category_tab from './eshopper/section/category_tab/category_tab';
 import Recommend_items from './eshopper/section/recommended_items/recommended_items';
-
+import Demostate from './teststate/components/demostate';
+import Ketquahoctap from './theodoihoctap/Ketquahoctap';
+import LifecycleAPI from './hookDemo/lifecycleAPI';
 // function App() {
 //   return (
 //     <div className="App">
@@ -221,6 +223,19 @@ import Recommend_items from './eshopper/section/recommended_items/recommended_it
 //   </div>
 //   )
 // }
+
+// camera
+// function Camera1() {
+//   return (
+//     <div id='container' >
+//       <Headercamera></Headercamera>
+//       <Content></Content>
+//       <Footercamera></Footercamera>
+//     </div>
+//     );
+// };
+
+// eshopper
 // function App() {
 //   return (
 //     <body>
@@ -243,15 +258,11 @@ import Recommend_items from './eshopper/section/recommended_items/recommended_it
 //   )
 // }
 
-function Camera1() {
-  return (
-    <div id='container' >
-      <Headercamera></Headercamera>
-      <Content></Content>
-      <Footercamera></Footercamera>
-    </div>
-    );
-};
-export default Camera1;
 
+function App() {
+  return (
+      <LifecycleAPI></LifecycleAPI>
+    )
+}
+export default App;
 
