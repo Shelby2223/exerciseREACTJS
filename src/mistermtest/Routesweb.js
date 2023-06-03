@@ -2,12 +2,12 @@ import React from 'react';
 				
 import Add from './Add';		
 import Edit from './Edit';			
-import ProductList from './ProductList';					
-								
+
+import Adminweb from './Adminweb';
 export const Routesweb = [								
 	{
 		path: '/',
-		element: <ProductList/>,
+		element: <Adminweb/>,
 		index: true
 	},							
     {
