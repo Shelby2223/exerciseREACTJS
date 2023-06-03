@@ -3,7 +3,7 @@
     {
       "name": "Bánh Tiramisu Italia",
       "price": "3612312",
-      "image": "./images/anh1.png",
+      "image": "/images/anh1.png",
       "color": "Hồng bánh kem2dasdas",
       "name_category": "sản phẩm mới",
       "material": "Bánh và trứng",
@@ -16,7 +16,7 @@
     {
       "name": "Bánh Macaron Pháp1231",
       "price": "50",
-      "image": "./images/anh2.png",
+      "image": "/images/anh2.png",
       "color": "Hồng bánh kem",
       "name_category": "sản phẩm khuyến mãi",
       "material": "Bánh và trứng",
@@ -394,6 +394,19 @@
       "description": "Dành cho những người đói bụng adasd",
       "tinhtranghang": true,
       "id": "ZtSqIyu"
+    },
+    {
+      "name": "testagain",
+      "price": "1213213",
+      "image": "/images/anh2.png",
+      "color": "Hồng bánh kem2dasdas",
+      "name_category": "",
+      "material": "ád",
+      "expiry_date": "",
+      "origin": "trung",
+      "description": "Dành cho những người đói bụng adasd",
+      "tinhtranghang": true,
+      "id": "OKikE1B"
     }
   ],
   "categories": [

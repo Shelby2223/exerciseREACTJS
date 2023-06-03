@@ -27,7 +27,7 @@ const Edit = () => {
         if (file) {
           setProduct(prevProduct => ({
             ...prevProduct,
-            image: "./images/" +file.name,
+            image: "/images/" +file.name,
           }));
         }
       };
